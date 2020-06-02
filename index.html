@@ -11,7 +11,7 @@
     <!-- HERO -->
     <div class="header position-fixed">
         <span class="text-white font-weight-bold">Approfitta dell'offerta valida ancora</span>
-        <span id="counter">15:00</span>
+        <span id="counter"></span>
         <button class="btn btn-primary header-btn font-weight-bold">Acquista</button>
     </div>
     <div class="hero" id="home">
@@ -253,6 +253,24 @@
 </body>
 
 </html>
+<script>
+    var countdown = 15*60*1000;
+    var timerId = setInterval(function(){
+      countdown -= 1000;
+      var min = Math.floor(countdown / (60 * 1000));
+      //var sec = Math.floor(countdown - (min * 60 * 1000));  
+      var sec = Math.floor((countdown - (min * 60 * 1000)) / 1000); 
+    
+      if (countdown <= 0) {
+         alert("30 min!");
+         clearInterval(timerId);
+      } else {
+         $("#counter").html(min + " : " + sec);
+      }
+      
+    
+    }, 1000); //1000ms.
+    </script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

@@ -196,3 +196,7 @@
 .contact-seperator{
     padding-bottom: 250px;
 }
+#counter{
+    color: #FF0000;
+    font-weight: bold;
+}
