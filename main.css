@@ -1,0 +1,87 @@
+.hero{
+    width: 100%;
+    height: 700px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkIqKLx9IW2IXOi59iT5rld_F0sYiiRM8NUZSlsiYHL7Th7va4&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 94%);
+}
+.hero .inner-text{
+    padding-top: 200px;
+}
+.rotator{
+    -webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+.divider{
+    width: 5px;
+    height: 5px;
+    color: #000;
+    text-align: center;
+}
+.text-rotator{
+    font-weight: 500;
+    font-size: 40px;
+}
+.divider{
+    background: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    height: 1px;
+    position: relative;
+    left: 37%;
+}
+.outer{
+    font-size: 16px;
+    padding-top: 6px;
+}
+.scroll{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 40px;
+    background: rgba(255,255,255,.3);
+    height: 40px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    display: flex;
+    text-align: center  ;
+    justify-content: center;
+}
+.fas{
+    color: #000;
+}
+.header{
+    z-index: 999;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+}
+.header-btn{
+    background: #fff;
+    color: #FF0000;
+    border: #FFF;
+}
+.header-btn:hover{
+    background: #fff;
+    color: rgba(255,0,0,0.68);
+}
+.image-wrapper{
+    background-image:url('https://static.pullandbear.net/2/photos/2020/V/0/1/p/9682/351/406/9682351406_1_1_3.jpg?t=1584960632119');
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
