@@ -85,3 +85,74 @@
     height: 250px;
     background-repeat: no-repeat;
 }
+.title-seperator{
+    position: relative;
+    width: 40px;
+    border-top: 1px solid #000;
+    margin-top: 15px;
+    margin-bottom: 30px;    
+}
+.product-description{
+    margin-bottom: 15px;
+}
+.cta-contact{
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    outline: none;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+   
+}
+.cta-contact:hover{
+    border-top: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+}
+.details-title{
+    color: #6d7bff;
+}
+
+.description{
+    border-right: 1px solid #333333;
+}
+.team-wrapper{
+    padding-top: 65px;
+    z-index: 2;
+    overflow: hidden;
+}
+.team-seperator{
+    position: relative;
+    margin: 0 auto;
+    width: 50px;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.team-description-intro{
+    margin: 21px auto auto;
+    width: 85%;
+}
+.avatar-photo{
+    clip-path: circle(40%);
+    width: 200px;
+    height: 200px;
+}
+.avatars-photo{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.avatars-photo:hover{
+    border:2px dashed;
+}
+.dashed-seperator{
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    border-top: 1px dashed rgba(0,0,0,.2);
+}
