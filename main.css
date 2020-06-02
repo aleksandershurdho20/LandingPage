@@ -156,3 +156,43 @@
     margin-top: 60px;
     border-top: 1px dashed rgba(0,0,0,.2);
 }
+.offer-seperator{
+    position: relative;
+    margin: 0 auto;
+    width: 50px;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.offer-section .btn{
+    background: #FF0000;
+    border: #FF0000;
+    /* left: 50%;
+    right: 50%;
+    position: relative; */
+}
+.spacer{
+    padding-bottom: 80px;
+}
+
+.offer-container{
+    background: #414141;
+    cursor: pointer;
+}
+
+.offer-title{
+    color: #FFF;
+}
+.contact-form{
+    max-width: 500px;
+}
+.truct-ctc{
+    color: black;
+    padding: 4px;
+    background: #ffc205;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.contact-seperator{
+    padding-bottom: 250px;
+}
